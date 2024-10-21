@@ -1,0 +1,82 @@
+/* General Styling */
+.section {
+  padding: 60px 0;
+}
+
+h1, h2 {
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 1.1rem;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-color: #007bff; /* Blue background */
+  text-align: center;
+  padding: 50px 0;
+}
+
+.newsletter h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: white; /* White text for contrast against blue */
+}
+
+.newsletter p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #f0f0f0; /* Slightly lighter color for the paragraph text */
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px; /* Increased width for larger email box */
+  margin: 0 auto;
+}
+
+.newsletter-form .form-group {
+  width: 100%;
+  margin-bottom: 20px; /* Added margin to create a gap between the email input and button */
+}
+
+.newsletter-form input[type="email"] {
+  width: 100%; /* Full width for email input */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: auto; /* Button width auto for consistent size */
+}
+
+.newsletter-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .newsletter-form {
+      max-width: 100%;
+  }
+  
+  .newsletter-form input[type="email"], .newsletter-form button {
+      width: 100%;
+  }
+}
