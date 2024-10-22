@@ -55,7 +55,7 @@
 
 let cartItems = [
     {
-        name:"ramesh",
+        name:"ram",
         products:[
             {title:"watch", price:1000},
             {title:"earpod", price:500}
@@ -63,7 +63,7 @@ let cartItems = [
 
     },
     {
-        name:"dinesh",
+        name:"shyam",
         products:[
             {title:"watch", price:1000},
             {title:"earpod", price:1000},
@@ -71,7 +71,7 @@ let cartItems = [
         ]
     },
     {
-        name:"jenny",
+        name:"bharat",
         products:[
             {title:"ear-ring", price: 1000}
                    
